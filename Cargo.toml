@@ -12,6 +12,9 @@ indicatif = "0.17.3"
 hex = "0.4.3"
 clap = { version = "4.1", features = ["derive"] }
 
+[dev-dependencies]
+tempfile = "3.8.1"
+
 [profile.release]
 opt-level = 'z'
 lto = true

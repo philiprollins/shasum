@@ -38,7 +38,7 @@ shasum [OPTIONS] <filename>
 ### Options
 
 - `-a, --algorithm <ALGORITHM>`: Hash algorithm to use. Options are 1 (SHA-1), 224, 256 (default), 384, 512.
-- `-b, --binary`: Read files in binary mode (default on DOS/Windows).
+- `-b, --binary`: Read files in binary mode.
 - `-t, --text`: Read files in text mode (default).
 - `-q, --quiet`: Disable progress bar.
 - `-h, --help`: Print help information.
